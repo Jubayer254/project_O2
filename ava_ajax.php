@@ -14,7 +14,7 @@ if (mysqli_connect_errno()) {
 $query = "SELECT * FROM user WHERE email='$email'";
 if ($result = mysqli_query($link, $query)) {
     while ($row = mysqli_fetch_assoc($result)) {
-        $content[] = $row;
+        $content[] = $row; //push value to array
     }
 }
 $data = ["status" => $status, "content" => $content];
