@@ -1,5 +1,7 @@
 
 <?php
+session_start();
+  $email = $_SESSION['email'];
 if($_SERVER['REQUEST_METHOD']=="POST"){
     if(
         isset($_POST['name']) &&
@@ -24,7 +26,7 @@ if($_SERVER['REQUEST_METHOD']=="POST"){
             $conn->exec($sql);
 
             ?>
-              <script>location.assign('home.php')</script>
+              <script>location.assign('userhome.php')</script>
             <?php
         }
         catch(PDOException $ex){

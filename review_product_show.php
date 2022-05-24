@@ -1,5 +1,6 @@
 <?php
-$email='user@gmail.com';
+    session_start();
+  $email = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
     <html>

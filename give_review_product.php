@@ -1,5 +1,6 @@
 <?php
-    $email="user@gmail.com";
+    session_start();
+    $email = $_SESSION['email'];
 ?>
 <!DOCTYPE html>
 <html>
@@ -72,7 +73,7 @@
                         let btn= document.querySelector('#s');
                         let name;
                         btn.addEventListener('click', function (){
-                            fetch('http://localhost/pre_final/ava_ajax.php')
+                            fetch('http://localhost/project_o2/project_o2/ava_ajax.php')
                             .then(response => response.json())
                             .then(myObj => {
                                 name = myObj.content[0].name;
