@@ -86,6 +86,10 @@
         <li class="nav-item">
         <a id= "test2" class="nav-link" href="make_donation.php"><i class="fa-solid fa-bag-shopping"></i> Make Donation</a>
       </li>
+        
+        <li class="nav-item">
+        <a id= "test2" class="nav-link" href="give_review_product.php"><i class="fa-solid fa-comment"></i> Give Review</a>
+      </li>
 
       <li class="nav-item">
         <a id= "test2" class="nav-link" href="logout.php"><i class="fa-solid fa-user"></i> Logout</a>
