@@ -81,6 +81,12 @@
       </li>
       <li class="nav-item">
         <a id= "test2" class="nav-link" href="viewcart.php"><i class="fa-solid fa-bag-shopping"></i> My Cart</a>
+
+      </li>
+        
+        <li class="nav-item">
+        <a id= "test2" class="nav-link" href="make_donation.php"><i class="fa-solid fa-bag-shopping"></i> Make Donation</a>
+
       </li>
 
       <li class="nav-item">
@@ -126,9 +132,15 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="event img/<?php echo $first_img; ?>" alt="First slide">
       <div class="carousel-caption d-none d-md-block">
-        <h5><?php echo $first_name; ?></h5>
+        <h5><?php echo $row['name']; ?></h5>
         <p><i class="fa-solid fa-calendar"></i> <?php echo date('h:i:s a, m/d/Y', strtotime($first_time));?> &nbsp <i class="fa-solid fa-location-dot"></i> <?php echo $first_loc; ?><br><br><?php echo $first_det; ?></p>
-        <button type="submit" class="CA btn btn-lg btn-block btn btn-light"><i class="fa-solid fa-thumbs-up"></i> Going</button>
+          
+        <input type="button" value= "Going" onclick="eventgoingfn('<?php echo $row['id']; ?>');" class="CA btn btn-lg btn-block btn btn-light"> 
+          
+          <script> function eventgoingfn(id){
+                   location.assign('event_going.php?id='+ id);
+                    
+                }</script>
       </div>
     </div>
     <?php
@@ -142,7 +154,11 @@
       <div class="carousel-caption d-none d-md-block">
         <h5><?php echo $row['name'];?></h5>
         <p><i class="fa-solid fa-calendar"></i> <?php echo date('h:i:s a, m/d/Y', strtotime($row['e_time']));?> &nbsp <i class="fa-solid fa-location-dot"></i> <?php echo $row['location'];?><br><br><?php echo $row['details'];?></p>
-        <button type="submit" class="CA btn btn-lg btn-block btn btn-light"><i class="fa-solid fa-thumbs-up"></i> Going</button>
+       <input type="button"  onclick="eventgoingfn2('<?php echo $row['id']; ?>');" value= "Going" class="CA btn btn-lg btn-block btn btn-light"/>
+          <script> function eventgoingfn2(id){
+                   location.assign('event_going.php?id='+ id);
+                    
+                }</script>
       </div>
     </div>
     <?php
@@ -357,6 +373,7 @@
         <div class="card-body">
             <p class="card-text">Click below to consult with plant specialist</p>
         </div>
+
         <?php
         if($pre == 'premium'){ ?>
         <button onclick="window.location.href='view_consult.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
@@ -367,6 +384,10 @@
         <button onclick="window.location.href='premium.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
         <?php }?>
       </div>
+
+        <button onclick="window.location.href='view_consult.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
+        </div>
+
     </div>
 
     <div class="p-col col-lg-3 col-md-12 col-sm-12">
