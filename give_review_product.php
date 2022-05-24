@@ -76,7 +76,7 @@
                             .then(response => response.json())
                             .then(myObj => {
                                 name = myObj.content[0].name;
-                                alert("Are you sure to submit your review "+ name+ " ?");		
+                                alert("Are you sure to submit your review  ?");		
                             })
                         });
                     </script>
