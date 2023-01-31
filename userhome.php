@@ -353,9 +353,7 @@
         </div>
     </div>
 
-    <div class="p-col col-lg-3 col-md-12 col-sm-12">
-        
-    </div>
+    
 
     <?php
         include '_dbconnect.php';
@@ -369,6 +367,9 @@
         }
               
      ?>
+        <div class="p-col col-lg-3 col-md-12 col-sm-12">
+        
+    </div>
 
     <div class="p-col col-lg-3 col-md-12 col-sm-12">
         <div class="card" style="width: 18rem;">
@@ -384,18 +385,13 @@
         <button onclick="window.location.href='view_consult.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
         <?php }
         else{?>
-        
-        
         <button onclick="window.location.href='premium.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
         <?php }?>
       </div>
 
-        <button onclick="window.location.href='view_consult.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Consult with Specialists</button>
-        </div>
-
-    </div>
-
-    <div class="p-col col-lg-3 col-md-12 col-sm-12">
+        
+   </div>
+        <div class="p-col col-lg-3 col-md-12 col-sm-12">
         <div class="card" style="width: 18rem;">
         <div class="inner">
         <img src="img/pic/30.jpg" class="card-img-top" alt="...">
@@ -406,6 +402,10 @@
         <button onclick="window.location.href='view_blog_list.php'" type="button" class="CA btn btn-lg btn-block btn btn-outline-success">Blogs</button>
         </div>
     </div>
+
+    </div>
+
+    
 
     <div class="p-col col-lg-3 col-md-12 col-sm-12">
         
