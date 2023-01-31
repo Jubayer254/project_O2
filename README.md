@@ -41,9 +41,10 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
 
 
 ## Snapshots
-* Index Page
 
-  * Index Page (Part - 1)
+* User
+
+  * Index Page 
 
   <img src="Screenshots\1.png" alt="" style="width:720px;"/>
 
@@ -53,45 +54,83 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
 
   <img src="Screenshots\4.png" alt="" style="width:720px;"/>
 
+  * Login
+
   <img src="Screenshots\5.png" alt="" style="width:720px;"/>
+  
+  * Sign Up
 
   <img src="Screenshots\6.png" alt="" style="width:720px;"/>
+  
+  * User home 
 
   <img src="Screenshots\7.png" alt="" style="width:720px;"/>
   
+  * Events
+  
   <img src="Screenshots\8.png" alt="" style="width:720px;"/>
+  
+  * Products (Plant)
 
   <img src="Screenshots\9.png" alt="" style="width:720px;"/>
   
+  * Products (Seeds)
+  
   <img src="Screenshots\10.png" alt="" style="width:720px;"/>
+  
+  * Products (Other Services)
   
   <img src="Screenshots\11.png" alt="" style="width:720px;"/>
   
+  * Products (Pots)
+  
   <img src="Screenshots\12.png" alt="" style="width:720px;"/>
+  
+  * Product Table (Flower Plants)
   
   <img src="Screenshots\13.png" alt="" style="width:720px;"/>
   
+  * Product Table (Flower Seeds)
+  
   <img src="Screenshots\14.png" alt="" style="width:720px;"/>
+  
+  * Product Table (Merch T-Shirts)
   
   <img src="Screenshots\15.png" alt="" style="width:720px;"/>
   
+  * Product Table (Recycled Products)
+  
   <img src="Screenshots\16.png" alt="" style="width:720px;"/>
+  
+  * Product Table (Packages)
   
   <img src="Screenshots\17.png" alt="" style="width:720px;"/>
   
+  * Product Table (Pots)
+  
   <img src="Screenshots\18.png" alt="" style="width:720px;"/>
+  
+  * Consultant for Premium Members
   
   <img src="Screenshots\19.png" alt="" style="width:720px;"/>
   
   <img src="Screenshots\20.png" alt="" style="width:720px;"/>
   
+  * Blog
+  
   <img src="Screenshots\21.png" alt="" style="width:720px;"/>
   
   <img src="Screenshots\22.png" alt="" style="width:720px;"/>
   
+  * Give Feedback
+  
   <img src="Screenshots\23.png" alt="" style="width:720px;"/>
   
+  * Request for Unavailable Plant
+  
   <img src="Screenshots\24.png" alt="" style="width:720px;"/>
+  
+  * Request for free plant exchange with recyclables
   
   <img src="Screenshots\24.2.png" alt="" style="width:720px;"/>
   
