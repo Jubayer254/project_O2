@@ -56,7 +56,7 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
 
   * Login
 
-  <img src="Screenshots\5.png" alt="" style="width:720px;"/>
+  <img src="Screenshots\42.png" alt="" style="width:720px;"/>
   
   * Sign Up
 
@@ -112,6 +112,8 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
   
   * Consultant for Premium Members
   
+  <img src="Screenshots\43.png" alt="" style="width:720px;"/>
+  
   <img src="Screenshots\19.png" alt="" style="width:720px;"/>
   
   <img src="Screenshots\20.png" alt="" style="width:720px;"/>
@@ -138,37 +140,67 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
   
 * Admin
   
-  * Admin Home Page
+  * Admin Home
 
   <img src="Screenshots\26.png" alt="" style="width:720px;"/>
   
+  * Add Product
+  
   <img src="Screenshots\27.png" alt="" style="width:720px;"/>
+  
+  * Update/Delete Products
   
   <img src="Screenshots\28.png" alt="" style="width:720px;"/>
   
+  * Add Package
+  
   <img src="Screenshots\29.png" alt="" style="width:720px;"/>
+  
+  * Update/Delete Package
   
   <img src="Screenshots\30.png" alt="" style="width:720px;"/>
   
+  * Add Event
+  
   <img src="Screenshots\31.png" alt="" style="width:720px;"/>
+  
+  * Update/Delete Event
   
   <img src="Screenshots\32.png" alt="" style="width:720px;"/>
   
+  * Add Blog
+  
   <img src="Screenshots\33.png" alt="" style="width:720px;"/>
+  
+  * Update/Delete Blog
   
   <img src="Screenshots\34.png" alt="" style="width:720px;"/>
   
+  * Assign Consultant
+  
   <img src="Screenshots\35.png" alt="" style="width:720px;"/>
+  
+  * Update/Delete Consultant
   
   <img src="Screenshots\36.png" alt="" style="width:720px;"/>
   
+  * Admin Home
+  
   <img src="Screenshots\37.png" alt="" style="width:720px;"/>
+  
+  * Manage Recycled Request
   
   <img src="Screenshots\38.png" alt="" style="width:720px;"/>
   
+  * View Feedback
+  
   <img src="Screenshots\39.png" alt="" style="width:720px;"/>
   
+  * View Unvailable Plant Request
+  
   <img src="Screenshots\40.png" alt="" style="width:720px;"/>
+  
+  * Admin Sign Up
   
   <img src="Screenshots\41.png" alt="" style="width:720px;"/>
   
