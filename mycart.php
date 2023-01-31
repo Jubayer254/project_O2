@@ -2,6 +2,7 @@
 ini_set('error_reporting', 0);
 ini_set('display_errors', 0);
 ?>
+
 <?php
   session_start();
   $email = $_SESSION['email'];
@@ -25,8 +26,11 @@ ini_set('display_errors', 0);
             }
           
         }
-
-  $q2 = "INSERT INTO cart VALUES ('', '$name', '$details','$price','$email','1')";
+echo "$name";
+echo "$details";
+echo "$price";
+echo "$email";
+  $q2 = "INSERT INTO `cart`(`name`, `details`, `price`, `email`, `quantity`) VALUES ('$name','$details','$price','$email','1')";
         $run = mysqli_query($con, $q2);
 
         header('location:viewcart.php');
