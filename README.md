@@ -138,6 +138,12 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
   
   <img src="Screenshots\25.png" alt="" style="width:720px;"/>
   
+  * Cart & Payment
+  
+  <img src="Screenshots\45.png" alt="" style="width:720px;"/>
+  
+  <img src="Screenshots\46.png" alt="" style="width:720px;"/>
+  
 * Admin
   
   * Admin Home
@@ -184,9 +190,9 @@ Our project aims to sell plants, pots, pests, T-shirts merch regarding awareness
   
   <img src="Screenshots\36.png" alt="" style="width:720px;"/>
   
-  * Admin Home
+  * Manage Orders
   
-  <img src="Screenshots\37.png" alt="" style="width:720px;"/>
+  <img src="Screenshots\44.png" alt="" style="width:720px;"/>
   
   * Manage Recycled Request
   
